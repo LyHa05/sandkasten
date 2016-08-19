@@ -95,6 +95,14 @@ public class RootLayoutController {
             mainApp.savePersonDataToFile(file);
         }
     }
+    
+    /**
+     * Opens the birthday statistics.
+     */
+    @FXML
+    private void handleShowBirthdayStatistics() {
+      mainApp.showBirthdayStatistics();
+    }
 
     /**
      * Opens an about dialog.
